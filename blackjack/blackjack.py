@@ -7,6 +7,11 @@ def deal_card(card):
     random_card = card[random.choice(card)]
     return random_card
 
-deal_card(cards)
+# assigning 2 random cards for user and computer
+user_cards = []
+computer_cards = []
 
-print(deal_card(cards))
+for _ in range(2):
+    user_cards.append(deal_card(cards))
+    computer_cards.append(deal_card(cards))
+

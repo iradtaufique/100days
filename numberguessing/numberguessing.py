@@ -1,7 +1,9 @@
 import logo
+import random
 
+hidden_number = random.randint(1,100)
+print(hidden_number)
 
-hidden_number = 9
 
 print(logo.logo)
 
